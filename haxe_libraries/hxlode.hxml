@@ -1,0 +1,4 @@
+# @install: lix --silent download "haxelib:/hxlode#1.0.1" into hxlode/1.0.1/haxelib
+-cp ${HAXE_LIBCACHE}/hxlode/1.0.1/haxelib/
+-D hxlode=1.0.1
+-lib ndll:${HAXE_LIBCACHE}/hxlode/1.0.1/haxelib/ndll/
